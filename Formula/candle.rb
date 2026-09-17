@@ -1,28 +1,28 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.9.0"
+  version "0.9.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.0/candle-0.9.0-darwin-arm64.tar.gz"
-      sha256 "1ccf62bc01a357642a496ca7e8fa6565f369cbb4744ab565ee22bd4362a89d28"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.2/candle-0.9.2-darwin-arm64.tar.gz"
+      sha256 "2aa82f4dee451f7bdd13c34d1ad140100c77edd8520381128fc6e83a4b7564a6"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.0/candle-0.9.0-darwin-x64.tar.gz"
-      sha256 "66dfe129d44d3e721d6673eb0588425ff805c0659bb890d06f87e970e4be59e2"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.2/candle-0.9.2-darwin-x64.tar.gz"
+      sha256 "b66ddd90c7290765190b324cc68d170cec1617198ad1201e39bb5c6f27266a7d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.0/candle-0.9.0-linux-arm64.tar.gz"
-      sha256 "1557b93a0a9547d8c47accc74b60b6ab04d64ea76f74277acafed4075bc47193"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.2/candle-0.9.2-linux-arm64.tar.gz"
+      sha256 "4310e0ec4d5d3a1940ca38a29ef514372d7346a0ad29f7d98580a801f79b1ca3"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.0/candle-0.9.0-linux-x64.tar.gz"
-      sha256 "d374b642fac5164504eab1b5fbc0101b29a2619f69be638d971838ff1b19240c"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.9.2/candle-0.9.2-linux-x64.tar.gz"
+      sha256 "7b7e5e966deda82e9e0d18c22e17d189c8abc85057ebd8e920478cdddc5ec36b"
     end
   end
 
