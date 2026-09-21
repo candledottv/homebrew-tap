@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.11.0"
+  version "0.11.2"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.0/candle-0.11.0-darwin-arm64.tar.gz"
-      sha256 "1b31a9a946c404ac628e58fd94d9b7c5bda68f5739849c4948a059891828660b"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.2/candle-0.11.2-darwin-arm64.tar.gz"
+      sha256 "82e25b957da1c05789907885609d2d69dd26972559922b4604d376bb788dea73"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.0/candle-0.11.0-darwin-x64.tar.gz"
-      sha256 "f4ec0c7fd9e433c8a6e477131284499560e7a01c7b5f5265e91d8a469dcdc10f"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.2/candle-0.11.2-darwin-x64.tar.gz"
+      sha256 "f497b034b5d21050b421900876f05dd5991f158f284a9e9f25fa9a79caad8afc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.0/candle-0.11.0-linux-arm64.tar.gz"
-      sha256 "2cc1ab8839a9d137e1c1c68ebb5d0846548592656cc154435e4d18f3ed1d3637"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.2/candle-0.11.2-linux-arm64.tar.gz"
+      sha256 "83d3527519a3713cc38b301797529bd7251ef9d01635b61c0cfcacbf55a02221"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.0/candle-0.11.0-linux-x64.tar.gz"
-      sha256 "59691334bf4e2109717d3c3e4b8ac7bd74ab5d971faeb8c76c4add5fc345efdf"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.2/candle-0.11.2-linux-x64.tar.gz"
+      sha256 "29f782d5f274204ae2022230694d864ce5da3f51a07e7a19f9fe2160300fb126"
     end
   end
 
