@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.11.3"
+  version "0.11.4"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.3/candle-0.11.3-darwin-arm64.tar.gz"
-      sha256 "e3d85ab66760eba4c2d069f8d4f1243df900eab611273cdefc8f24ad11cb2c2b"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.4/candle-0.11.4-darwin-arm64.tar.gz"
+      sha256 "7092f0e0f8347b05c85dbe5451bbbdcbb41e9b60c0dc98a45f8b49c872e96207"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.3/candle-0.11.3-darwin-x64.tar.gz"
-      sha256 "8cf358d749ad38246b11fbbc90f5d6365975a02f68e1ef816a556d17533f88b7"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.4/candle-0.11.4-darwin-x64.tar.gz"
+      sha256 "7054b36b272f88ce54e734a124b801423786459b57011c0827fa7e17724d8409"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.3/candle-0.11.3-linux-arm64.tar.gz"
-      sha256 "5f4cbb8480f10f71714431740eaf460ff5e193314b2435354684c42cf69bd8dc"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.4/candle-0.11.4-linux-arm64.tar.gz"
+      sha256 "7c1471b15f172056d28d8daf1ab0c30826e20c2675912c317d4b164970609fc2"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.3/candle-0.11.3-linux-x64.tar.gz"
-      sha256 "6e5bfe294d41aa76fdd28564ca2f4691c6528444586d73aa5427abb3f88d2b9f"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.4/candle-0.11.4-linux-x64.tar.gz"
+      sha256 "60bf4fb4682a1dce7f7849fc27e2833120c4f96684a8ea58999b5d809458fa83"
     end
   end
 
