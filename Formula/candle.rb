@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.11.6"
+  version "0.11.7"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-darwin-arm64.tar.gz"
-      sha256 "61f77f8e5d1b4ddec11742193145feafe9ec6e92cc4b3f8ffdb063f7a9e3bfdc"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.7/candle-0.11.7-darwin-arm64.tar.gz"
+      sha256 "1d30f4c229ce1c905a7bd3037697b6c74908f5aa6d07c34a1833a04858540cbe"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-darwin-x64.tar.gz"
-      sha256 "8b9df06e5b742d27a31c455f66265016d0981dd51d3fd8be6e8dd73611da992f"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.7/candle-0.11.7-darwin-x64.tar.gz"
+      sha256 "a5909a86643bbfca982e5c2e7434df2d7e9cf160e1f10205b081b4dc4bbadee1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-linux-arm64.tar.gz"
-      sha256 "1a27d8b941edf4673e4c16c062dc23b076ae41e339100b6d799b57b1f847f1a0"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.7/candle-0.11.7-linux-arm64.tar.gz"
+      sha256 "e3a98de5f5e808e6be5f62fbb5775a04c34ef39434e4efd5f0bb0358e9c17272"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-linux-x64.tar.gz"
-      sha256 "21754dc9cfa6530f79a511f0a8f32928033e9ec978d6d7f5387e2a274cdecea5"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.7/candle-0.11.7-linux-x64.tar.gz"
+      sha256 "5169cc7af155933e5f88c5527c57de9ea4ada88fd721e5a23b9288acbeb60a20"
     end
   end
 
