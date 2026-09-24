@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.11.5"
+  version "0.11.6"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.5/candle-0.11.5-darwin-arm64.tar.gz"
-      sha256 "3ee088e673c2e152f47068e5033231c680b50bc352a03714641f7196ce40ee96"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-darwin-arm64.tar.gz"
+      sha256 "61f77f8e5d1b4ddec11742193145feafe9ec6e92cc4b3f8ffdb063f7a9e3bfdc"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.5/candle-0.11.5-darwin-x64.tar.gz"
-      sha256 "c5e77583b9ad4d666025e665b0f9143ed68003d251bbfd20721e04a5eba9ac02"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-darwin-x64.tar.gz"
+      sha256 "8b9df06e5b742d27a31c455f66265016d0981dd51d3fd8be6e8dd73611da992f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.5/candle-0.11.5-linux-arm64.tar.gz"
-      sha256 "a4b48434dffcb1503ff91f6771c9bdf246f4bf4fb015074f62c51fdb579ac1cb"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-linux-arm64.tar.gz"
+      sha256 "1a27d8b941edf4673e4c16c062dc23b076ae41e339100b6d799b57b1f847f1a0"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.5/candle-0.11.5-linux-x64.tar.gz"
-      sha256 "982dea745cd329a492689f46529d003407f9ce7180cb79e02699c278cc15f5bf"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.6/candle-0.11.6-linux-x64.tar.gz"
+      sha256 "21754dc9cfa6530f79a511f0a8f32928033e9ec978d6d7f5387e2a274cdecea5"
     end
   end
 
