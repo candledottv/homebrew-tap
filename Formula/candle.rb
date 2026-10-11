@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.11.22"
+  version "0.11.23"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.22/candle-0.11.22-darwin-arm64.tar.gz"
-      sha256 "0c86a690d20d98fe256717b60d3bdf80a15d3e7ad2651da339e775019ca15c3d"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.23/candle-0.11.23-darwin-arm64.tar.gz"
+      sha256 "218f830d4127e2431117f72611080877bec2f518d66ceca8cc3fe1cf644db5c1"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.22/candle-0.11.22-darwin-x64.tar.gz"
-      sha256 "5f04451340235e08d956934c6098c082e590124753968e3feb2c1041ad38c5b1"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.23/candle-0.11.23-darwin-x64.tar.gz"
+      sha256 "9fbcb142712b597f19b9533bbf6cfa0dce4b2f2b5b02ce19d58d463d22ebda64"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.22/candle-0.11.22-linux-arm64.tar.gz"
-      sha256 "c73f9271d1b0bd085482b1c7127b0925698de7926c0b25cc089dcbeabb5e23c2"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.23/candle-0.11.23-linux-arm64.tar.gz"
+      sha256 "948954946f1fd04e09b79f75fb7e0204dbae4b963671375518a15ea4b16b6062"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.22/candle-0.11.22-linux-x64.tar.gz"
-      sha256 "471230a732b592648a29377c6928c4eedb45b6a1f5a1fef976743919931e23f4"
+      url "https://github.com/candledottv/agentic/releases/download/cli-v0.11.23/candle-0.11.23-linux-x64.tar.gz"
+      sha256 "8f8220839e89fcc67969f9cfd9b82b68f49790b462a0dfddff7968afb0e0e5a4"
     end
   end
 
