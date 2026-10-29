@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.12.0"
+  version "0.13.5"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.12.0/candle-0.12.0-darwin-arm64.tar.gz"
-      sha256 "9093127572734d833b8d21fd46edf85ca785d9966358d4dd5fe0e384dd08e4ef"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-darwin-arm64.tar.gz"
+      sha256 "c760da909a690003238616282b1e76cbbda57a947ccdc650b1eb9fa25f1d95eb"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.12.0/candle-0.12.0-darwin-x64.tar.gz"
-      sha256 "bbc87826f028af6d12179bfafffc0f5d4b8d48c5f7153e3725cb3f81f67dfc7f"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-darwin-x64.tar.gz"
+      sha256 "0581e37e2ec29ba6adc15e3c2fec9cfc6f10c88a6817d137b94a377e081c9c19"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.12.0/candle-0.12.0-linux-arm64.tar.gz"
-      sha256 "97679657c0e6ff3d81ac4ca6c3a94a2d8c0fc1d333439a3729822803c6e37480"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-linux-arm64.tar.gz"
+      sha256 "a96e8754323c09fc26d2236284dd32eaf832d083d2fa3663784ce0d98178aff5"
     end
     on_intel do
-      url "https://github.com/candledottv/agentic/releases/download/cli-v0.12.0/candle-0.12.0-linux-x64.tar.gz"
-      sha256 "8867b3d90b19c71529b603c719526ebcd357fe8fb1f18d62833c6babbefdb151"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-linux-x64.tar.gz"
+      sha256 "256ef7db01db699a9b40eba8b0758e87b90863596c00294b3d5b97dbf9f029e3"
     end
   end
 
