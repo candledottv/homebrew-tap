@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.5"
+  version "0.13.9"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-darwin-arm64.tar.gz"
-      sha256 "c760da909a690003238616282b1e76cbbda57a947ccdc650b1eb9fa25f1d95eb"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-darwin-arm64.tar.gz"
+      sha256 "7c4513541ce98e217e4152cfe0835bf4407303a68bab7183ca3232838b5ae7af"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-darwin-x64.tar.gz"
-      sha256 "0581e37e2ec29ba6adc15e3c2fec9cfc6f10c88a6817d137b94a377e081c9c19"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-darwin-x64.tar.gz"
+      sha256 "13348d6589848f5dc021789acfbab48e77db3d20cf8c4ed9300fffa4774c464a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-linux-arm64.tar.gz"
-      sha256 "a96e8754323c09fc26d2236284dd32eaf832d083d2fa3663784ce0d98178aff5"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-linux-arm64.tar.gz"
+      sha256 "090c9f325326d9311c19ba9e7428e561f16b95a19b0fbe0ef85c7616448ffe76"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.5/candle-0.13.5-linux-x64.tar.gz"
-      sha256 "256ef7db01db699a9b40eba8b0758e87b90863596c00294b3d5b97dbf9f029e3"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-linux-x64.tar.gz"
+      sha256 "eec629a5455c9df905252ef61b108ff14b0ac8d44bbbab6bfc133acf1ac06324"
     end
   end
 
