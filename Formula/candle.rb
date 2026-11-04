@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.9"
+  version "0.13.11"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-darwin-arm64.tar.gz"
-      sha256 "7c4513541ce98e217e4152cfe0835bf4407303a68bab7183ca3232838b5ae7af"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-darwin-arm64.tar.gz"
+      sha256 "60f13728c1828051f5d3009135806366439cff1eda0b1593c32b1548e930ea89"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-darwin-x64.tar.gz"
-      sha256 "13348d6589848f5dc021789acfbab48e77db3d20cf8c4ed9300fffa4774c464a"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-darwin-x64.tar.gz"
+      sha256 "20e84a13250edd7a3a05abf576af8a7003f1354aaf5e71eb062b374b042d45b1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-linux-arm64.tar.gz"
-      sha256 "090c9f325326d9311c19ba9e7428e561f16b95a19b0fbe0ef85c7616448ffe76"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-linux-arm64.tar.gz"
+      sha256 "6f75e0b85bc9602f2d756ccdc074c17cd40c441c6f15d9a63f4c498e3c60343e"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.9/candle-0.13.9-linux-x64.tar.gz"
-      sha256 "eec629a5455c9df905252ef61b108ff14b0ac8d44bbbab6bfc133acf1ac06324"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-linux-x64.tar.gz"
+      sha256 "64b2c1c915ef133a3266e18e22d9a785bb93ba9e884cf22eff5d4fa8cec5d9a0"
     end
   end
 
