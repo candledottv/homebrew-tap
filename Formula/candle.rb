@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.11"
+  version "0.13.15"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-darwin-arm64.tar.gz"
-      sha256 "60f13728c1828051f5d3009135806366439cff1eda0b1593c32b1548e930ea89"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.15/candle-0.13.15-darwin-arm64.tar.gz"
+      sha256 "fad66ddb27ca97679c476d39443987d1d776946757f2647b4f8301c87c7a0d13"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-darwin-x64.tar.gz"
-      sha256 "20e84a13250edd7a3a05abf576af8a7003f1354aaf5e71eb062b374b042d45b1"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.15/candle-0.13.15-darwin-x64.tar.gz"
+      sha256 "278cda4c756902a3739f8285f9ad893600430768d00e19fc5c448c2255066a0a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-linux-arm64.tar.gz"
-      sha256 "6f75e0b85bc9602f2d756ccdc074c17cd40c441c6f15d9a63f4c498e3c60343e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.15/candle-0.13.15-linux-arm64.tar.gz"
+      sha256 "53ad7ee2cc1ce67e54fa74abe8d03afb5506cc965cf5a285586afef2785b2ff1"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.11/candle-0.13.11-linux-x64.tar.gz"
-      sha256 "64b2c1c915ef133a3266e18e22d9a785bb93ba9e884cf22eff5d4fa8cec5d9a0"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.15/candle-0.13.15-linux-x64.tar.gz"
+      sha256 "3941b1e0a57122c4c221920e744ad2ba76b81dacaa45eec2bb2a0082de61b73c"
     end
   end
 
