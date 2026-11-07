@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.17"
+  version "0.13.18"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-darwin-arm64.tar.gz"
-      sha256 "c9d7b5a798f2cce4377d5fba436e23c4c5aa2e87a20b76fda29ae34eb7d2f0b1"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-darwin-arm64.tar.gz"
+      sha256 "9e56d0fda55f23e3b3acabee7f2b10b270ee12de6fc17337fa94d64a219453b9"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-darwin-x64.tar.gz"
-      sha256 "b74afe7f9f62c08b1f6832490669603c903f3b9598fd98c0cff8c48a244c0869"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-darwin-x64.tar.gz"
+      sha256 "d9a50b8aa983b6d7b7b1e2aaf2baba82dd592acf199f4a6bb70d6ca620faa269"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-linux-arm64.tar.gz"
-      sha256 "149959d39b2d33060adcea2b20c9f96ccf7118ea53cbc2911ba034aff6e6080d"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-linux-arm64.tar.gz"
+      sha256 "4eb2f1efa89f479272633866a6672365cbe62e0760bc0424e4e2d7c8ae273fd0"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-linux-x64.tar.gz"
-      sha256 "e7ed2d2a69dc42964eb0045a16f773f88bea2241e86d6d07e23e4dca9b764e3b"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-linux-x64.tar.gz"
+      sha256 "b36d3fdfcda047514421858bf31750c5eaedac50e261f10ebc1de071629a3e4e"
     end
   end
 
