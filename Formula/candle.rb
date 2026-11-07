@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.16"
+  version "0.13.17"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.16/candle-0.13.16-darwin-arm64.tar.gz"
-      sha256 "b31c2f55456e4aa2d4ee7c34c078babc03bcc445b25b8f7ee6fabc212720cc25"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-darwin-arm64.tar.gz"
+      sha256 "c9d7b5a798f2cce4377d5fba436e23c4c5aa2e87a20b76fda29ae34eb7d2f0b1"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.16/candle-0.13.16-darwin-x64.tar.gz"
-      sha256 "e38e290fe6608a3443064e799ad8dcc51d481cded5beb22aad179a2ac99d592b"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-darwin-x64.tar.gz"
+      sha256 "b74afe7f9f62c08b1f6832490669603c903f3b9598fd98c0cff8c48a244c0869"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.16/candle-0.13.16-linux-arm64.tar.gz"
-      sha256 "0d8f43000578e1390662bf23ecc4cef2db9bca7ee4e9bd764e9f856bb589e36a"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-linux-arm64.tar.gz"
+      sha256 "149959d39b2d33060adcea2b20c9f96ccf7118ea53cbc2911ba034aff6e6080d"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.16/candle-0.13.16-linux-x64.tar.gz"
-      sha256 "1bf18ca34565d16e2ea6efc65e521131abf32d99106e7300a30168aa30d4eb75"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.17/candle-0.13.17-linux-x64.tar.gz"
+      sha256 "e7ed2d2a69dc42964eb0045a16f773f88bea2241e86d6d07e23e4dca9b764e3b"
     end
   end
 
