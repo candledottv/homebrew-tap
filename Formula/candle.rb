@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.18"
+  version "0.13.19"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-darwin-arm64.tar.gz"
-      sha256 "9e56d0fda55f23e3b3acabee7f2b10b270ee12de6fc17337fa94d64a219453b9"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.19/candle-0.13.19-darwin-arm64.tar.gz"
+      sha256 "3377c054b5326d48bd4658ee0ea2afefb683ddcb7aa3087f8fbbaf3b38215e9a"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-darwin-x64.tar.gz"
-      sha256 "d9a50b8aa983b6d7b7b1e2aaf2baba82dd592acf199f4a6bb70d6ca620faa269"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.19/candle-0.13.19-darwin-x64.tar.gz"
+      sha256 "849e66967c6fd60591d21689ea1b4cbbf403abd668d89677e47444a31e4bf260"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-linux-arm64.tar.gz"
-      sha256 "4eb2f1efa89f479272633866a6672365cbe62e0760bc0424e4e2d7c8ae273fd0"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.19/candle-0.13.19-linux-arm64.tar.gz"
+      sha256 "efbad4282f91bd6a7b22753eef22d1ffcc45d2401d94fb12f670193d2dfab599"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.18/candle-0.13.18-linux-x64.tar.gz"
-      sha256 "b36d3fdfcda047514421858bf31750c5eaedac50e261f10ebc1de071629a3e4e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.19/candle-0.13.19-linux-x64.tar.gz"
+      sha256 "1821c64164613d29ca52b32434182adc2fe58ccc15bcf6044f1f58b1dfcfc3e0"
     end
   end
 
