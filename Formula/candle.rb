@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.20"
+  version "0.13.21"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.20/candle-0.13.20-darwin-arm64.tar.gz"
-      sha256 "bddc7c919bae452bc5529d9dfb8e85e7963dd09c02a67663c9e49aaeede30f62"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-darwin-arm64.tar.gz"
+      sha256 "1e7ede0aec411f2dc1091d33e1dfebf071bd833fe0be45329a78c600eddc646a"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.20/candle-0.13.20-darwin-x64.tar.gz"
-      sha256 "a70058e4078a627ba40c8ab9cd66b9e7b275df421aab8dca4cd4c0803b0b4a23"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-darwin-x64.tar.gz"
+      sha256 "9cf882444a81dcc55a3feb8e64cdc3e6b9316d361c4a900d578a695bc7414eac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.20/candle-0.13.20-linux-arm64.tar.gz"
-      sha256 "a5e212296a68f82cfa7aef621ccf63f4897daa9ce57e2feb8c49198a1453e3c3"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-linux-arm64.tar.gz"
+      sha256 "2bbee05c12dad61fbcc9963687275ca7d09820fd3ced3805533c65707e1eb689"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.20/candle-0.13.20-linux-x64.tar.gz"
-      sha256 "5257a8951320c2e46d736651342b5181620c933e79e0fb24cbff305a3558df16"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-linux-x64.tar.gz"
+      sha256 "c7388801de7f30e3fec36f8af37a1167469cb9892fff930e312159c1426027d7"
     end
   end
 
