@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.21"
+  version "0.13.23"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-darwin-arm64.tar.gz"
-      sha256 "1e7ede0aec411f2dc1091d33e1dfebf071bd833fe0be45329a78c600eddc646a"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-darwin-arm64.tar.gz"
+      sha256 "36a927446a1fe99e5dea39dddedb7c256cf5ee92fa8892dbd8eb0049e67208a5"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-darwin-x64.tar.gz"
-      sha256 "9cf882444a81dcc55a3feb8e64cdc3e6b9316d361c4a900d578a695bc7414eac"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-darwin-x64.tar.gz"
+      sha256 "bd6c83c38595a455bbd590ec09b14cf2628a1323f5313a9373ae3584caa201a4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-linux-arm64.tar.gz"
-      sha256 "2bbee05c12dad61fbcc9963687275ca7d09820fd3ced3805533c65707e1eb689"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-linux-arm64.tar.gz"
+      sha256 "83cd9975aaa974e100057d5d43a51051403b8c955812f535888e7de3566111e0"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.21/candle-0.13.21-linux-x64.tar.gz"
-      sha256 "c7388801de7f30e3fec36f8af37a1167469cb9892fff930e312159c1426027d7"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-linux-x64.tar.gz"
+      sha256 "508b2b9bba5d98cefe7155c132c66f9990cfb9f43e7068852419c92a8f6abcd0"
     end
   end
 
