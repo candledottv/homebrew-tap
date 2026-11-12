@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.23"
+  version "0.13.24"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-darwin-arm64.tar.gz"
-      sha256 "36a927446a1fe99e5dea39dddedb7c256cf5ee92fa8892dbd8eb0049e67208a5"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-darwin-arm64.tar.gz"
+      sha256 "b4ce09393f5bdeadc51b84a4a6e8d2e1a2a469d9487c54980980ff03a4573a6d"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-darwin-x64.tar.gz"
-      sha256 "bd6c83c38595a455bbd590ec09b14cf2628a1323f5313a9373ae3584caa201a4"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-darwin-x64.tar.gz"
+      sha256 "699f9a14f049d42eea8e4a65e5d903088c7201de5a076014a628a6a17b5dd89a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-linux-arm64.tar.gz"
-      sha256 "83cd9975aaa974e100057d5d43a51051403b8c955812f535888e7de3566111e0"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-linux-arm64.tar.gz"
+      sha256 "19aa090e0fe494320b4a21971c24ea533f753b56d1a9dcb46c429bce1ba9fe20"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.23/candle-0.13.23-linux-x64.tar.gz"
-      sha256 "508b2b9bba5d98cefe7155c132c66f9990cfb9f43e7068852419c92a8f6abcd0"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-linux-x64.tar.gz"
+      sha256 "208dd154498ce43d71005e1983e64c584b35667e7dd9d752108056c0cd47727e"
     end
   end
 
