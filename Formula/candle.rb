@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.24"
+  version "0.13.31"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-darwin-arm64.tar.gz"
-      sha256 "b4ce09393f5bdeadc51b84a4a6e8d2e1a2a469d9487c54980980ff03a4573a6d"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-darwin-arm64.tar.gz"
+      sha256 "ef7eb8621cc08ca8ae6509ac252b504d1614d6c94a7c1800cce5128c82cd1063"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-darwin-x64.tar.gz"
-      sha256 "699f9a14f049d42eea8e4a65e5d903088c7201de5a076014a628a6a17b5dd89a"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-darwin-x64.tar.gz"
+      sha256 "be4f5b4d5497cf787d6fe93eeab4ed51646e995fb725a4809a7caff93e7182ed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-linux-arm64.tar.gz"
-      sha256 "19aa090e0fe494320b4a21971c24ea533f753b56d1a9dcb46c429bce1ba9fe20"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-linux-arm64.tar.gz"
+      sha256 "bbbbe71c53e77155b71a4664d39bb3712775439b9db37195139293e3d9f59c37"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.24/candle-0.13.24-linux-x64.tar.gz"
-      sha256 "208dd154498ce43d71005e1983e64c584b35667e7dd9d752108056c0cd47727e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-linux-x64.tar.gz"
+      sha256 "f17653114e516451c2c799bcfbc8e3083d9e514203d7fdccf793573de6e13b64"
     end
   end
 
