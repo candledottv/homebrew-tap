@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.31"
+  version "0.13.32"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-darwin-arm64.tar.gz"
-      sha256 "ef7eb8621cc08ca8ae6509ac252b504d1614d6c94a7c1800cce5128c82cd1063"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-darwin-arm64.tar.gz"
+      sha256 "d4974eb29c86583ca5426d83c65751541c87a4752e288bdf0f178f11c9f7ed95"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-darwin-x64.tar.gz"
-      sha256 "be4f5b4d5497cf787d6fe93eeab4ed51646e995fb725a4809a7caff93e7182ed"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-darwin-x64.tar.gz"
+      sha256 "50c47c6fa12e434841c6475c416fa4bc41f9f2b6203a32eee9c26c3df4069c98"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-linux-arm64.tar.gz"
-      sha256 "bbbbe71c53e77155b71a4664d39bb3712775439b9db37195139293e3d9f59c37"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-linux-arm64.tar.gz"
+      sha256 "b9825abaf06194a05b96618915013fef08799bdde475c003eb0c125ccc402484"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.31/candle-0.13.31-linux-x64.tar.gz"
-      sha256 "f17653114e516451c2c799bcfbc8e3083d9e514203d7fdccf793573de6e13b64"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-linux-x64.tar.gz"
+      sha256 "f7bf9338598007469e5e7a920bbf9d38d009b281dc66c4cce39025d2d4905195"
     end
   end
 
