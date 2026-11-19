@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.32"
+  version "0.13.33"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-darwin-arm64.tar.gz"
-      sha256 "d4974eb29c86583ca5426d83c65751541c87a4752e288bdf0f178f11c9f7ed95"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-darwin-arm64.tar.gz"
+      sha256 "1e7410f74dbeba06d456b60bf9eec74a5eef7f72ff830731dc548a9cad7ec07c"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-darwin-x64.tar.gz"
-      sha256 "50c47c6fa12e434841c6475c416fa4bc41f9f2b6203a32eee9c26c3df4069c98"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-darwin-x64.tar.gz"
+      sha256 "d35309df7937ad7f59a6a1e94075f94e1935c875fba9db1d378f8a27d17e5686"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-linux-arm64.tar.gz"
-      sha256 "b9825abaf06194a05b96618915013fef08799bdde475c003eb0c125ccc402484"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-linux-arm64.tar.gz"
+      sha256 "f717e22e8e106783e930ded32116e712afbdb34b05022c2440d016622d2859e7"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.32/candle-0.13.32-linux-x64.tar.gz"
-      sha256 "f7bf9338598007469e5e7a920bbf9d38d009b281dc66c4cce39025d2d4905195"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-linux-x64.tar.gz"
+      sha256 "786ee3409d2c5ec94ab3551980f36efd30453cfc1f09b7973d47db12bfb6610f"
     end
   end
 
