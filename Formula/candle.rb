@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.34"
+  version "0.13.35"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-darwin-arm64.tar.gz"
-      sha256 "7c2bc4b6c13d71ea4a12f7c39f9404fa5b1f3a43dd2c8ea35d2f84a82e953614"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-darwin-arm64.tar.gz"
+      sha256 "c65039894a1aa10d850c5d33eadc48ea959839019a3e419d0624e57164acabaa"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-darwin-x64.tar.gz"
-      sha256 "28391612ea08194ddc81883f71d95cdc7e4e83d81c414930ed38a2a9f1fdc73c"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-darwin-x64.tar.gz"
+      sha256 "7fd5f6f46dd2a41835202bef44588c37b929e9cf2cc38fc1652ca574250223cd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-linux-arm64.tar.gz"
-      sha256 "24a6286104d79cca1c8591fec65a66054c0ea5e6a44732856b276cabcbfa01e7"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-linux-arm64.tar.gz"
+      sha256 "00f497749c47db5b82b6fc338f496e59a4ae1c320019866ab48b17da1916cf99"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-linux-x64.tar.gz"
-      sha256 "2582052944a6276e6dafbf20d90214916f2d96d8b8f6db23fb83197631404f8e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-linux-x64.tar.gz"
+      sha256 "d82128fd3044904823ba2ba614b32d55bf2d5a355cca2e5f94862cc0f23e0568"
     end
   end
 
