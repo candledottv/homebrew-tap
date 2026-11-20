@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.33"
+  version "0.13.34"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-darwin-arm64.tar.gz"
-      sha256 "1e7410f74dbeba06d456b60bf9eec74a5eef7f72ff830731dc548a9cad7ec07c"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-darwin-arm64.tar.gz"
+      sha256 "7c2bc4b6c13d71ea4a12f7c39f9404fa5b1f3a43dd2c8ea35d2f84a82e953614"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-darwin-x64.tar.gz"
-      sha256 "d35309df7937ad7f59a6a1e94075f94e1935c875fba9db1d378f8a27d17e5686"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-darwin-x64.tar.gz"
+      sha256 "28391612ea08194ddc81883f71d95cdc7e4e83d81c414930ed38a2a9f1fdc73c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-linux-arm64.tar.gz"
-      sha256 "f717e22e8e106783e930ded32116e712afbdb34b05022c2440d016622d2859e7"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-linux-arm64.tar.gz"
+      sha256 "24a6286104d79cca1c8591fec65a66054c0ea5e6a44732856b276cabcbfa01e7"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.33/candle-0.13.33-linux-x64.tar.gz"
-      sha256 "786ee3409d2c5ec94ab3551980f36efd30453cfc1f09b7973d47db12bfb6610f"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.34/candle-0.13.34-linux-x64.tar.gz"
+      sha256 "2582052944a6276e6dafbf20d90214916f2d96d8b8f6db23fb83197631404f8e"
     end
   end
 
