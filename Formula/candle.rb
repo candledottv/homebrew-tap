@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.35"
+  version "0.13.47"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-darwin-arm64.tar.gz"
-      sha256 "c65039894a1aa10d850c5d33eadc48ea959839019a3e419d0624e57164acabaa"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-darwin-arm64.tar.gz"
+      sha256 "32a203dc503408a6612734592cc4ee40fea9c147e713f07e7a47d12548ca77d4"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-darwin-x64.tar.gz"
-      sha256 "7fd5f6f46dd2a41835202bef44588c37b929e9cf2cc38fc1652ca574250223cd"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-darwin-x64.tar.gz"
+      sha256 "c8970ac4464ad8adcdc6db05365fd21eb06ef1761c090f02f000f6d35999165a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-linux-arm64.tar.gz"
-      sha256 "00f497749c47db5b82b6fc338f496e59a4ae1c320019866ab48b17da1916cf99"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-linux-arm64.tar.gz"
+      sha256 "55ffb591f6e77bdbbb877ba75fe90a946b7791806ce3d0383c3cc04e9188132e"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.35/candle-0.13.35-linux-x64.tar.gz"
-      sha256 "d82128fd3044904823ba2ba614b32d55bf2d5a355cca2e5f94862cc0f23e0568"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-linux-x64.tar.gz"
+      sha256 "25c3e5676f2ea47ec521b39af4a8aa9edeb8ef46a359a01862d28529bd7e6cc9"
     end
   end
 
