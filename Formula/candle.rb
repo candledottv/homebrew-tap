@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.48"
+  version "0.13.49"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-darwin-arm64.tar.gz"
-      sha256 "4db4d98285c8a88d2cc34a7382e3c766cd0f4fa5ce220e4c03a69be5fa678094"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-darwin-arm64.tar.gz"
+      sha256 "880eb6debffd3a06f9fd1a3852a718d8923a0a4936decc792f7763c9ca5bdd7d"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-darwin-x64.tar.gz"
-      sha256 "a926d60c65094d62a4351e2c90f66e64c1c716c446e4dfa2a9481b144c570c73"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-darwin-x64.tar.gz"
+      sha256 "45919f9ef47fe14a70f9a8e082c8ca5b3a2277d50490b6a9f93f3256b8406f1c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-linux-arm64.tar.gz"
-      sha256 "d5e4ec74de667ed27d47389ce39c22c963c4531d57b9b0b24d40495b09f4eee7"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-linux-arm64.tar.gz"
+      sha256 "49c24d10f5a3dfca06d87df3f05e1aff3e74ac6e2b70640f9e88862179022300"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-linux-x64.tar.gz"
-      sha256 "c42b0ac0bc46cae42c5fbd4db2045b10838f4aa3325dbe7817b4290076e7014e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-linux-x64.tar.gz"
+      sha256 "16c51a1d6b2b40ff0d49909d6cbbf0c2b8f2c6f505ceb1e20d3dc2db39564f99"
     end
   end
 
