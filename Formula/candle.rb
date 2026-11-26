@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.49"
+  version "0.13.50"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-darwin-arm64.tar.gz"
-      sha256 "880eb6debffd3a06f9fd1a3852a718d8923a0a4936decc792f7763c9ca5bdd7d"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-darwin-arm64.tar.gz"
+      sha256 "608590829e747dd701831aa09194902f1d918cee82155f3c26c5148b71ecef9e"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-darwin-x64.tar.gz"
-      sha256 "45919f9ef47fe14a70f9a8e082c8ca5b3a2277d50490b6a9f93f3256b8406f1c"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-darwin-x64.tar.gz"
+      sha256 "1d83e29e9bf9d647ae0abfa81b0803ab4fc6ceab88a462255a45a876bdf4bd2f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-linux-arm64.tar.gz"
-      sha256 "49c24d10f5a3dfca06d87df3f05e1aff3e74ac6e2b70640f9e88862179022300"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-linux-arm64.tar.gz"
+      sha256 "fe885e4cd13e890c4a793d3c4bb7392258e15733bc67ceda9061fb8be0e7714a"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.49/candle-0.13.49-linux-x64.tar.gz"
-      sha256 "16c51a1d6b2b40ff0d49909d6cbbf0c2b8f2c6f505ceb1e20d3dc2db39564f99"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-linux-x64.tar.gz"
+      sha256 "eb15250302b7b996c351907eeb919e88a02515f0cfcaff0b9ca0160342e192e1"
     end
   end
 
