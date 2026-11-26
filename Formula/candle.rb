@@ -1,7 +1,7 @@
 class Candle < Formula
   desc "Authorize a device, manage API keys and wallets, run the MCP server"
   homepage "https://candle.tv"
-  version "0.13.47"
+  version "0.13.48"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-darwin-arm64.tar.gz"
-      sha256 "32a203dc503408a6612734592cc4ee40fea9c147e713f07e7a47d12548ca77d4"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-darwin-arm64.tar.gz"
+      sha256 "4db4d98285c8a88d2cc34a7382e3c766cd0f4fa5ce220e4c03a69be5fa678094"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-darwin-x64.tar.gz"
-      sha256 "c8970ac4464ad8adcdc6db05365fd21eb06ef1761c090f02f000f6d35999165a"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-darwin-x64.tar.gz"
+      sha256 "a926d60c65094d62a4351e2c90f66e64c1c716c446e4dfa2a9481b144c570c73"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-linux-arm64.tar.gz"
-      sha256 "55ffb591f6e77bdbbb877ba75fe90a946b7791806ce3d0383c3cc04e9188132e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-linux-arm64.tar.gz"
+      sha256 "d5e4ec74de667ed27d47389ce39c22c963c4531d57b9b0b24d40495b09f4eee7"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.47/candle-0.13.47-linux-x64.tar.gz"
-      sha256 "25c3e5676f2ea47ec521b39af4a8aa9edeb8ef46a359a01862d28529bd7e6cc9"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.48/candle-0.13.48-linux-x64.tar.gz"
+      sha256 "c42b0ac0bc46cae42c5fbd4db2045b10838f4aa3325dbe7817b4290076e7014e"
     end
   end
 
