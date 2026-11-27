@@ -3,6 +3,7 @@
     brew install candledottv/tap/candle
     brew upgrade candle
 
-The formula points at the signed release binaries on https://github.com/candledottv/agentic/releases
-and is rewritten by that repository's release workflow after every release. To verify a release,
-see https://docs.candle.tv/developers/verify-a-candle-release
+The formula installs the signed Candle CLI binaries from https://github.com/candledottv/cli/releases.
+The CLI's release workflow rewrites it after every release. The CLI source is open under MIT at
+https://github.com/candledottv/agentic. To verify a release, see
+https://docs.candle.tv/developers/verify-a-candle-release
