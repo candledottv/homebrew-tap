@@ -1,7 +1,7 @@
 class Candle < Formula
-  desc "Authorize a device, manage API keys and wallets, run the MCP server"
+  desc "Candle CLI: wallets, API keys and the MCP server from your terminal"
   homepage "https://candle.tv"
-  version "0.13.50"
+  version "0.13.51"
   license "MIT"
 
   # The security key helper (candle-fido2) loads libfido2 at run time; Homebrew's is the one it finds.
@@ -14,23 +14,23 @@ class Candle < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-darwin-arm64.tar.gz"
-      sha256 "608590829e747dd701831aa09194902f1d918cee82155f3c26c5148b71ecef9e"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.51/candle-0.13.51-darwin-arm64.tar.gz"
+      sha256 "151d742d1f166c6caa4c01ba74ec739c09cf3f71eabffdb372dd717f8ec5dc44"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-darwin-x64.tar.gz"
-      sha256 "1d83e29e9bf9d647ae0abfa81b0803ab4fc6ceab88a462255a45a876bdf4bd2f"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.51/candle-0.13.51-darwin-x64.tar.gz"
+      sha256 "b760b30513c86138c6c2c813f7afeb17fb69686f58c54b853bb8e8f2266d8abd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-linux-arm64.tar.gz"
-      sha256 "fe885e4cd13e890c4a793d3c4bb7392258e15733bc67ceda9061fb8be0e7714a"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.51/candle-0.13.51-linux-arm64.tar.gz"
+      sha256 "48df2659cc12dc6bf95db8c5f1897718d0d1fa3d6c59c50275f7c5e5de0f25a9"
     end
     on_intel do
-      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.50/candle-0.13.50-linux-x64.tar.gz"
-      sha256 "eb15250302b7b996c351907eeb919e88a02515f0cfcaff0b9ca0160342e192e1"
+      url "https://github.com/candledottv/cli/releases/download/cli-v0.13.51/candle-0.13.51-linux-x64.tar.gz"
+      sha256 "d6498ae36d5575432e10db02041d06defe5ceb15bc518657b8751a57488baab8"
     end
   end
 
